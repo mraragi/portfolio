@@ -1,0 +1,129 @@
+*,*::before,*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding:3rem;
+}
+
+body{
+    background-color: blueviolet;
+     
+    background-image: url("images/796854.jpg");
+    
+    
+}
+header{
+    
+    text-align: center;
+    font-size: xx-large;
+    font-family: fantasy;
+    color: beige;
+}
+
+.img-container{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+
+nav{
+    font-size: x-large;
+    
+    
+}
+
+.menu-container{
+    position: absolute;
+    right: 0;
+    padding:7px;
+}
+
+.menu{
+    color: coral;
+  display:flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+nav ul li{
+    list-style: none;
+    padding-right: 30px;
+}
+a {
+    text-decoration: none;
+    color:coral;
+}
+
+p{
+    
+    text-align: left;
+    font-size: x-large
+}
+p ol{
+    
+    text-align: left;
+}
+p ul{
+    
+    text-align: left;
+}
+h1{
+    font-size: x-large;
+    margin-top: 4rem;
+
+
+    
+}
+.right{
+    float: left;
+    width: 500px;
+    border: whitesmoke;
+    padding: auto;
+    color: white;
+    
+}
+
+h2{
+    font-size: x-large
+}
+
+.left{
+    float: right;
+    width: 500px;
+    border: whitesmoke;
+    padding: auto;
+    color: white;
+}
+
+.list{
+    color: white;
+    font-size: large;
+    
+}
+
+.message-above-form{
+    color: purple;
+    text-align: center;
+}
+
+.footer-container{
+    margin-top: 3rem;
+    position: relative;
+    bottom: 0;
+    text-align: center;
+}
+
+.socials{
+    color: white;
+    text-align: center;
+}
+.return{
+    color: aqua;
+    
+    
+}
+
+
